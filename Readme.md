@@ -1,4 +1,4 @@
-**# Binance SOL/USDT Order Book Tracker**
+**## Binance Order Book Tracker**
 
 This script connects to Binance's public API and WebSocket to maintain a real-time order book for any trading pair. It stores the top 20 levels of bids and asks in a CSV file (`orderbook.csv`) that gets updated continuously.
 
@@ -22,6 +22,7 @@ Install the required packages using pip:
 
 ```bash
 pip install aiohttp websockets ujson sortedcontainers
+```
 
-**Next Steps**
+**## Next Steps**
 Add a local db to track all top levels.
